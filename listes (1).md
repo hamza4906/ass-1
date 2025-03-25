@@ -571,6 +571,6 @@ def aff(dessin):
     for col in ligne:
       if col == 1:
         print(" *", end= "")
-    else:
-        print("  ", end= "")
-  print()
+      else:
+        print(" .", end= "")
+    print()
